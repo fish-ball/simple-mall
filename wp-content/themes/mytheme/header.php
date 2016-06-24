@@ -7,7 +7,7 @@
 </head>
 <body <?php body_class();?>>
     <header id="masthead" class="site-header" role="banner">
-    Simple Mall 商城
+    <a href="<?php echo home_url();?>">Simple Mall 商城</a>
     </header><!-- #masthead -->
     <div id="main" class="site-main">
 

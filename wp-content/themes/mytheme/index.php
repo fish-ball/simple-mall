@@ -34,4 +34,4 @@ get_header(); ?>
     </ul>
 </section>
 
-<?php get_footer(); ?>
+<?php get_footer();
