@@ -19,7 +19,47 @@ Text Domain: easecloud
 .gallery-caption, .bypostauthor
 { font-size: 1em; }
 
+html {
+  font-size: 5vw;
+}
 
 body {
+  font-size: 5vw;
+}
 
+#masthead {
+  font-size: 1rem;
+  background: #333;
+  color: white;
+  line-height: 2.4rem;
+  text-align: center;
+}
+
+body.home {
+  h2.subtitle {
+    line-height: 2.4rem; font-weight: bold;
+    margin: 1rem 0;
+    &::before {
+      content: "※ ";
+    }
+  }
+  section {
+    padding: 0.5rem;
+  }
+  .goods-categories {
+    a {
+      display: inline-block; margin: 0.25rem; padding: 0.3rem;
+      background: fade(#0000FF, 20%);
+    }
+  }
+  ul.goods-list {
+    margin: 0 -0.5rem;
+    li {
+      float: left; width: 9rem; height: 8rem;
+      border: 1px solid #CCC; margin: 0.5rem;
+      box-sizing: border-box;
+      img { width: 100%; display: block; height: 6rem; }
+      h5 { line-height: 2rem; .nowrap(); font-size: 0.8rem; padding: 0 0.4rem; }
+    }
+  }
 }

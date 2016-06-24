@@ -84,3 +84,57 @@ input {
 .bypostauthor {
   font-size: 1em;
 }
+html {
+  font-size: 5vw;
+}
+body {
+  font-size: 5vw;
+}
+#masthead {
+  font-size: 1rem;
+  background: #333;
+  color: white;
+  line-height: 2.4rem;
+  text-align: center;
+}
+body.home h2.subtitle {
+  line-height: 2.4rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+body.home h2.subtitle::before {
+  content: "※ ";
+}
+body.home section {
+  padding: 0.5rem;
+}
+body.home .goods-categories a {
+  display: inline-block;
+  margin: 0.25rem;
+  padding: 0.3rem;
+  background: rgba(0, 0, 255, 0.2);
+}
+body.home ul.goods-list {
+  margin: 0 -0.5rem;
+}
+body.home ul.goods-list li {
+  float: left;
+  width: 9rem;
+  height: 8rem;
+  border: 1px solid #CCC;
+  margin: 0.5rem;
+  box-sizing: border-box;
+}
+body.home ul.goods-list li img {
+  width: 100%;
+  display: block;
+  height: 6rem;
+}
+body.home ul.goods-list li h5 {
+  line-height: 2rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 0.8rem;
+  padding: 0 0.4rem;
+}
